@@ -2,14 +2,23 @@ package co.udea.udu.reto5;
 
 public class Wartortle extends Pokemon{
 
+    public Wartortle() {
+    }
+
+    public Wartortle(String nombre, byte nivel, int puntajeSalud) {
+        super(nombre, nivel, puntajeSalud);
+    }
+    
+
     @Override
     public Pokemon evolucionar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Pokemon blastoise = new Blastoise(nombre, nivel, puntajeSalud);
+        return blastoise;
     }
 
     @Override
     public String gritar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Wartortle";
     }
     
 }

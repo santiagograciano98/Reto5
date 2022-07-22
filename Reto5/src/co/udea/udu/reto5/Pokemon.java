@@ -17,10 +17,6 @@ public abstract class Pokemon {
         this.puntajeSalud = puntajeSalud;
     }
     
-    
-    
-    
-
     public String getNombre() {
         return nombre;
     }

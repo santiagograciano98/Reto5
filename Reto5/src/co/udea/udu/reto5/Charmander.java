@@ -1,6 +1,6 @@
 package co.udea.udu.reto5;
 
-public abstract class Charmander extends Pokemon {
+public class Charmander extends Pokemon {
 
     public Charmander() {
     }
